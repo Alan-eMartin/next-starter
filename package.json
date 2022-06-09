@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "stylelint": "stylelint .",
+    "eslint": "eslint .",
+    "eslint:client": "eslint ./src",
+    "lint": "npm run eslint && npm run stylelint"
   },
   "dependencies": {
     "next": "12.1.6",
